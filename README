@@ -1,0 +1,58 @@
+Установка, настройка и обучение основам языка C# в ОС Ubuntu 18.04.
+
+1. Ставим SDK. При возникновении ошибок идем на ссылку в скобках.
+(https://docs.microsoft.com/ru-ru/dotnet/core/install/linux-ubuntu)
+wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+sudo apt-get update; \
+  sudo apt-get install -y apt-transport-https && \
+  sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-3.1
+
+2. Устанавливаем плагин VSCode C# Microsoft. Документация по ссылке в скобках.
+(https://code.visualstudio.com/docs/languages/csharp)
+
+3. Создаем каталог проекта.
+mkdir test
+cd test
+dotnet new console
+
+4. Открываем каталог в VSCode и запускаем первую программу
+	- Ctrl-Shift-P (или F1), .NET: Generate Assets For Buld And Debug;
+	- откроется файл Program.cs, в котором будет шаблонкода (Это первый урок из MS-интерактивного учебника):
+		
+		using System;
+
+		namespace cshTest
+		{
+		    class Program
+		    {
+		        static void Main(string[] args)
+		        {
+		            Console.WriteLine("Hello World!");
+		        }
+		    }
+		}
+
+		Не смотрим на namespace и class. Пока будем писать код внутри функции Main. Например, забегая вперед, следующий пример из майкрософтовского интерактивного учебника можно записать так:
+		
+		using System;
+
+		namespace cshTest
+		{
+		    [DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
+		    class Program
+		    {
+		        static void Main(string[] args)
+		        {   
+		            String str = "Test";
+		            Console.WriteLine(str);
+		        }
+		    }
+		}
+	- запускаем пример (внизу на полоске будет маленький треугольник и надпись ".NET Core Launch") и смотрим результат выполнения в окне Debug Console
+
+5. Обучение базовым функциям языка.
+	- открываем https://docs.microsoft.com/ru-ru/dotnet/csharp/tutorials/intro-to-csharp/hello-world?tutorial-step=1;
+	- как видим, первый шаг, это наш пример;
+	- идем на следующий урок, изменяем код, запускаем, смотрим и дальше идем по шагам.	

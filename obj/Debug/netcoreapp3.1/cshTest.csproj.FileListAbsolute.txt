@@ -1,0 +1,13 @@
+/home/paramra/workdir/cshTest/bin/Debug/netcoreapp3.1/cshTest
+/home/paramra/workdir/cshTest/bin/Debug/netcoreapp3.1/cshTest.deps.json
+/home/paramra/workdir/cshTest/bin/Debug/netcoreapp3.1/cshTest.runtimeconfig.json
+/home/paramra/workdir/cshTest/bin/Debug/netcoreapp3.1/cshTest.runtimeconfig.dev.json
+/home/paramra/workdir/cshTest/bin/Debug/netcoreapp3.1/cshTest.dll
+/home/paramra/workdir/cshTest/bin/Debug/netcoreapp3.1/cshTest.pdb
+/home/paramra/workdir/cshTest/obj/Debug/netcoreapp3.1/cshTest.csprojAssemblyReference.cache
+/home/paramra/workdir/cshTest/obj/Debug/netcoreapp3.1/cshTest.AssemblyInfoInputs.cache
+/home/paramra/workdir/cshTest/obj/Debug/netcoreapp3.1/cshTest.AssemblyInfo.cs
+/home/paramra/workdir/cshTest/obj/Debug/netcoreapp3.1/cshTest.csproj.CoreCompileInputs.cache
+/home/paramra/workdir/cshTest/obj/Debug/netcoreapp3.1/cshTest.dll
+/home/paramra/workdir/cshTest/obj/Debug/netcoreapp3.1/cshTest.pdb
+/home/paramra/workdir/cshTest/obj/Debug/netcoreapp3.1/cshTest.genruntimeconfig.cache
